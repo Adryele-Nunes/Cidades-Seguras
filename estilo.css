@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+}
+
+header {
+
+}
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100%;
+    background-size: cover; 
+    width: 100%;
+    text-align: center;
+}
+
+.divisao:before {
+   content: "";
+   display: block; 
+   width: 100%;
+   height: 20px;
+   background: yellow;
+   margin: 20px auto;
+}
+
+#titulo {
+    color: rgb(221, 221, 11);
+    padding-top: 15%;
+    font-size: 60px;
+}
+
+#subtitulo {
+    color:  rgb(221, 221, 11);
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 200%;
+}
+
+#botao {
+    color:  rgb(221, 221, 11);
+    border: 2px solid;
+    padding: 10px 10px 10px 10px;
+}
+
+#autor {
+    color: rgb(221, 221, 11);
+
+}
+
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+
+}
+
+.letras {
+    float: left;
+    padding: 0 5%;
+
+}
